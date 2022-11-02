@@ -122,7 +122,8 @@
 #introduce .banner ul li img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #introduce .banner ul li .txt {
   position: absolute;
@@ -146,7 +147,8 @@
 #activity .banner ul li img {
   height: 300px;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #activity .banner ul li img:hover {
   filter: brightness(0.7);
